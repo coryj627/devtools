@@ -1,14 +1,14 @@
 {
   "schema_version": 1,
   "tool": "a11y-check-flutter",
-  "tool_version": "0.2.0",
+  "tool_version": "0.2.1",
   "engines": {
-    "static": "0.2.0",
-    "runtime": "0.2.0"
+    "static": "0.2.1",
+    "runtime": "0.2.1"
   },
   "matcher_version": "2",
   "created_at": "2026-11-09T00:47:49.496599Z",
-  "updated_at": "2026-11-09T20:29:06.444829Z",
+  "updated_at": "2026-11-09T22:27:34.208051Z",
   "summary": {
     "finding_count": 82,
     "by_severity": {
@@ -931,7 +931,7 @@
       "message_hash": "sha256:9aa2294864493df0"
     },
     {
-      "id": "sha256:3df932bb461977345d25d2941f3087e7e9021e5f7115867a381b8c621a2ac005",
+      "id": "sha256:343546ac8ad83d9e6a6da87dc50f6ef51a3533ff4d450561a55bc3eabaf2e1cd",
       "rule_id": "flutter/runtime/icon-contrast-insufficient",
       "layer": "runtime",
       "wcag_criterion": "1.4.11",
@@ -940,11 +940,11 @@
       "file_path": "packages/devtools_app_shared/lib/src/ui/split_pane.dart",
       "line": 334,
       "column": 16,
-      "message_hash": "sha256:caea2910ba00cd3b",
+      "message_hash": "sha256:0ecbf84990d40582",
       "screen_id": "accessibility"
     },
     {
-      "id": "sha256:51d5422c97eb4f60d8cb6e350719ebae36c10e455674f135f3dfc248a8c65358",
+      "id": "sha256:0265d7ff70786f47272a0f1398357a83b7cbbdbc3db4d5b7cab6699e73071c37",
       "rule_id": "flutter/runtime/icon-contrast-insufficient",
       "layer": "runtime",
       "wcag_criterion": "1.4.11",
@@ -953,12 +953,12 @@
       "file_path": "packages/devtools_app_shared/lib/src/ui/split_pane.dart",
       "line": 334,
       "column": 16,
-      "message_hash": "sha256:caea2910ba00cd3b",
+      "message_hash": "sha256:0ecbf84990d40582",
       "occurrence_key": "1",
       "screen_id": "logging"
     },
     {
-      "id": "sha256:c2f49290d9b4e20c891b8d0191ed91033e2f90cc70ec76aea179f0d40e3d4443",
+      "id": "sha256:692fee5c5a22ed0bd9728d8fc9e8c6a9b86c95ff9570bcb0eaef064ae3e06bcf",
       "rule_id": "flutter/runtime/icon-contrast-insufficient",
       "layer": "runtime",
       "wcag_criterion": "1.4.11",
@@ -967,7 +967,7 @@
       "file_path": "packages/devtools_app_shared/lib/src/ui/split_pane.dart",
       "line": 334,
       "column": 16,
-      "message_hash": "sha256:caea2910ba00cd3b",
+      "message_hash": "sha256:0ecbf84990d40582",
       "occurrence_key": "2",
       "screen_id": "network"
     },
