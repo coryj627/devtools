@@ -354,8 +354,8 @@ packages:
     dependency: transitive
     description:
       path: "packages/flutter_a11y_core"
-      ref: "654ee3e75fc7ab628c8db936a73ac0c011d683a2"
-      resolved-ref: "654ee3e75fc7ab628c8db936a73ac0c011d683a2"
+      ref: "278d7da76e16b9c6cf964d620c3f9940a2fa584b"
+      resolved-ref: "278d7da76e16b9c6cf964d620c3f9940a2fa584b"
       url: "https://github.com/coryj627/flutter-a11y.git"
     source: git
     version: "0.1.0"
@@ -364,7 +364,7 @@ packages:
     description:
       path: "packages/flutter_a11y_test"
       ref: main
-      resolved-ref: "654ee3e75fc7ab628c8db936a73ac0c011d683a2"
+      resolved-ref: "278d7da76e16b9c6cf964d620c3f9940a2fa584b"
       url: "https://github.com/coryj627/flutter-a11y.git"
     source: git
     version: "0.1.0"

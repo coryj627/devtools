@@ -59,7 +59,13 @@ FakeServiceConnectionManager _connectedTo(String screenId) {
 Future<void> _audit(WidgetTester tester, String screenId, Widget app) async {
   await tester.pumpWidget(app);
   await tester.pump(const Duration(seconds: 1));
-  final result = await auditScreen(tester, screenId: screenId);
+  // DevTools is a desktop and web tool driven by a pointer: the mobile touch
+  // guidelines (48/44 dp) do not apply; WCAG 2.5.8 (24 px) still does.
+  final result = await auditScreen(
+    tester,
+    screenId: screenId,
+    config: const A11yAuditConfig(platform: TargetPlatform.macOS),
+  );
   // ignore: avoid_print
   print('a11y $screenId: ${result.findings.length} finding(s)');
 }
