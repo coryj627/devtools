@@ -1,20 +1,20 @@
 {
   "schema_version": 1,
   "tool": "a11y-check-flutter",
-  "tool_version": "0.2.1",
+  "tool_version": "0.3.0",
   "engines": {
-    "static": "0.2.1",
-    "runtime": "0.2.1"
+    "static": "0.3.0",
+    "runtime": "0.3.0"
   },
   "matcher_version": "2",
   "created_at": "2026-11-09T00:47:49.496599Z",
-  "updated_at": "2026-11-09T22:27:34.208051Z",
+  "updated_at": "2026-11-10T04:27:22.348894Z",
   "summary": {
-    "finding_count": 82,
+    "finding_count": 81,
     "by_severity": {
       "error": 70,
       "warning": 5,
-      "info": 7
+      "info": 6
     }
   },
   "findings": [
@@ -147,19 +147,6 @@
       "line": 149,
       "column": 13,
       "message_hash": "sha256:6b2204b22ada7ed9",
-      "screen_id": "accessibility"
-    },
-    {
-      "id": "sha256:93a62a0b0ebb5c3de933113bc978a7c539efaff01d869d0e5f5ca0b35244dbdf",
-      "rule_id": "flutter/runtime/traversal-order-mismatch",
-      "layer": "runtime",
-      "wcag_criterion": "2.4.3",
-      "wcag_guideline": "2.4",
-      "severity": "info",
-      "file_path": "packages/devtools_app/lib/src/screens/accessibility/semantics_node_details_pane.dart",
-      "line": 28,
-      "column": 16,
-      "message_hash": "sha256:64e0cb6b8eca944a",
       "screen_id": "accessibility"
     },
     {
