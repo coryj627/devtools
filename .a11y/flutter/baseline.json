@@ -1,19 +1,19 @@
 {
   "schema_version": 1,
   "tool": "a11y-check-flutter",
-  "tool_version": "0.3.0",
+  "tool_version": "0.4.0",
   "engines": {
-    "static": "0.3.0",
-    "runtime": "0.3.0"
+    "static": "0.4.0",
+    "runtime": "0.4.0"
   },
   "matcher_version": "2",
   "created_at": "2026-11-09T00:47:49.496599Z",
-  "updated_at": "2026-11-10T04:27:22.348894Z",
+  "updated_at": "2026-11-11T03:05:55.682760Z",
   "summary": {
-    "finding_count": 81,
+    "finding_count": 84,
     "by_severity": {
-      "error": 70,
-      "warning": 5,
+      "error": 69,
+      "warning": 9,
       "info": 6
     }
   },
@@ -147,19 +147,6 @@
       "line": 149,
       "column": 13,
       "message_hash": "sha256:6b2204b22ada7ed9",
-      "screen_id": "accessibility"
-    },
-    {
-      "id": "sha256:be63341f47a5b40447bbb468b6b2adafda2dc6437b1e48d36cd3036c3bd120f7",
-      "rule_id": "flutter/runtime/textfield-missing-label",
-      "layer": "runtime",
-      "wcag_criterion": "3.3.2",
-      "wcag_guideline": "3.3",
-      "severity": "error",
-      "file_path": "packages/devtools_app/lib/src/screens/accessibility/semantics_tree_pane.dart",
-      "line": 120,
-      "column": 13,
-      "message_hash": "sha256:e175c920def26217",
       "screen_id": "accessibility"
     },
     {
@@ -771,6 +758,33 @@
       "message_hash": "sha256:59ca830cbff9be20"
     },
     {
+      "id": "sha256:976cd823d1b4ed5473437c3f70baa22770a63f3358027174cfe24b82426c50aa",
+      "rule_id": "flutter/runtime/textfield-placeholder-only",
+      "layer": "runtime",
+      "wcag_criterion": "3.3.2",
+      "wcag_guideline": "3.3",
+      "severity": "warning",
+      "file_path": "packages/devtools_app/lib/src/shared/ui/search.dart",
+      "line": 1007,
+      "column": 14,
+      "message_hash": "sha256:54ab3fcbe9d9e442",
+      "screen_id": "logging"
+    },
+    {
+      "id": "sha256:dc3d5523c585c09cc011ec384b3b6a8c9899cde08fa3cbe921cfc13c649081e9",
+      "rule_id": "flutter/runtime/textfield-placeholder-only",
+      "layer": "runtime",
+      "wcag_criterion": "3.3.2",
+      "wcag_guideline": "3.3",
+      "severity": "warning",
+      "file_path": "packages/devtools_app/lib/src/shared/ui/search.dart",
+      "line": 1007,
+      "column": 14,
+      "message_hash": "sha256:54ab3fcbe9d9e442",
+      "occurrence_key": "1",
+      "screen_id": "network"
+    },
+    {
       "id": "sha256:cbaec60a2bed3d8d44781eb0e2dd38694dda1e319471c1249b883a349086d276",
       "rule_id": "flutter/static/icon-button-missing-tooltip",
       "layer": "static",
@@ -970,6 +984,33 @@
       "column": 14,
       "message_hash": "sha256:e175c920def26217",
       "screen_id": "dtd-tools"
+    },
+    {
+      "id": "sha256:0e56b6df9f5973ae7b1d0be2d8e5bd23130590a208703888146adf758207177f",
+      "rule_id": "flutter/runtime/textfield-placeholder-only",
+      "layer": "runtime",
+      "wcag_criterion": "3.3.2",
+      "wcag_guideline": "3.3",
+      "severity": "warning",
+      "file_path": "packages/devtools_app_shared/lib/src/ui/text_field.dart",
+      "line": 48,
+      "column": 14,
+      "message_hash": "sha256:54ab3fcbe9d9e442",
+      "screen_id": "logging"
+    },
+    {
+      "id": "sha256:be04dc998e8e8e8da4f4b0583e9f4ac0a002690623db6917c9f6ce6e9499382e",
+      "rule_id": "flutter/runtime/textfield-placeholder-only",
+      "layer": "runtime",
+      "wcag_criterion": "3.3.2",
+      "wcag_guideline": "3.3",
+      "severity": "warning",
+      "file_path": "packages/devtools_app_shared/lib/src/ui/text_field.dart",
+      "line": 48,
+      "column": 14,
+      "message_hash": "sha256:54ab3fcbe9d9e442",
+      "occurrence_key": "1",
+      "screen_id": "network"
     },
     {
       "id": "sha256:b145b90ddc3a54d533f765cf32a7e4a4c641dcd16a92211faeb9538ea368b82f",
